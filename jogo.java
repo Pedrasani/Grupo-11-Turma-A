@@ -11,12 +11,12 @@ public class Jogo {
         int tentativas = 2;
         Scanner input = new Scanner(System.in);
         
-        System.out.println("\nPara acessar o jogo, crie um login e senha: ");
-        System.out.print("Login: ");
+        System.out.println("\nPara acessar o jogo, crie um login: ");
+        System.out.print("Usuário: ");
         String login = input.next();
         System.out.print("Senha: ");
         String senha = input.next();
-        System.out.println("Senha criada com sucesso! ");
+        System.out.println("Login criada com sucesso! ");
         
         
         for (int i = 0; i < 3; i++) {
@@ -39,7 +39,7 @@ public class Jogo {
                 System.out.println("\nComo você deseja ser chamado? ");
                 String nome = input.next();
         
-                System.out.println("\nOla " + nome + " você ira passar por uma simulação em forma de um quiz onde iremos nos aprofundar na evolução da tecnologia! \nparece interessante não é mesmo, bom, sem enrolação vamos nessa!");
+                System.out.println("\nOlá " + nome + " você irá passar por uma simulação em forma de um quiz onde iremos nos aprofundar na evolução da tecnologia! \nparece interessante não é mesmo? Bom, sem enrolação vamos nessa!");
         
                 System.out.println("\nHoje temos pleno entendimento da tecnologia, é inegável afirmar que a\n" +
 "sociedade vem se transformando em função das evoluções tecnológicas,\n" +
@@ -48,12 +48,11 @@ public class Jogo {
 "inovações.\n" +
 "Vamos embarcar em uma linha do tempo para compreender como foram os\n" +
 "principais acontecimentos.");
-        System.out.println("\n" + nome + " você está preparado para começar essa aventura? \n [SIM] ou [NÃO]");
+        System.out.println("\n" + nome + " você está preparado para começar essa aventura? \n 1 - [SIM] ou 2 - [NÃO]");
         String escolha = input.next();
         switch (escolha){
-            case "SIM":
-            case "Sim":
-            case "sim":
+            case "1":
+            
                 
         //História da calculadora
                 
@@ -63,6 +62,12 @@ public class Jogo {
                 System.out.println("\n Agora é com você, precisamos da sua ajuda para darmos prosseguimento a nossa história, conto com você nessa em.");
                 System.out.println("\n Podemos dizer que o ábaco foi a primeira calculadora da história, \ncriado no século 6 antes de Cristo, embora fosse um instrumento bastante limitado. \nO ábaco acabou sendo o principal mecanismo de cálculo durante os 24 séculos seguintes ?");
                 System.out.println("");
+                System.out.println(" "
+                        + ""
+                        + "            O  O  O\n"
+                        + "            O  O  O\n"	
+                        + "            ==|==|==|==\n         "
+                        + "    C  D  U");
                 
         //Implementar a respotas        
                 
@@ -93,11 +98,8 @@ public class Jogo {
                 
                 
                 break;
-            case "NÃO":
-            case "Não":
-            case "não":
-            case "nao":
-                System.out.println("Que pena, volte uma hora vez para nos ajudar!");
+            case "2":
+                System.out.println("Que pena, volte uma outra vez para nos ajudar!");
                 
         }
                 
