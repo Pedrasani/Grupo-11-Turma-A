@@ -1,8 +1,8 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.jogo;
 
 /**
  *
- * @author victo
+ * @author pedro
  */
 import java.util.Scanner;
 public class Jogo {
@@ -39,7 +39,7 @@ public class Jogo {
                 System.out.println("\nComo você deseja ser chamado? ");
                 String nome = input.next();
         
-                System.out.println("\nOlá " + nome + " Você irá passar por uma simulação em forma de um quiz onde iremos nos aprofundar na evolução da tecnologia! Você terá como objetivo acertar o maior número de perguntas"
+                System.out.println("\nOlá " + nome + " Você irá passar por uma simulação em forma de um quiz onde iremos nos aprofundar na evolução da tecnologia! \nVocê terá como objetivo acertar o maior número de perguntas"
                         + "\n para somar peças e reconstruir o projeto do primeiro computador criado. \nParece interessante não é mesmo? Bom, sem enrolação vamos nessa!");
         
                 System.out.println("\nHoje temos pleno entendimento da tecnologia, é inegável afirmar que a\n" +
@@ -135,9 +135,54 @@ public class Jogo {
                 } else{
                     System.out.println("Infelizmente você errou");
                 }
+                 
+                 //Historia linguagem programacao
+                 System.out.println("Vamos avançar mais ainda no tempo, agora iremos te apresentar a primeira linguagem de programação! \n");
+                 
+                 System.out.println("A primeira linguagem de programação foi a Fortran, e seu primeiro compilador foi \n" +
+"desenvolvido para o IBM 704 em 1954-57. \n" +
+"Em 1962, o Fortran foi muito utilizado por cientistas na escrita de programas \n" +
+"numericamente intensivos. No ano de 1966, o Fortran já era a linguagem mais \n" +
+"utilizada pela comunidade científica, pois possuía uma ampla variedade de \n" +
+"compiladores, além de ser simples e fácil de aprendê-la, e conseguir lidar com \n" +
+"números complexos.\n" +
+"Uma das desvantagens é que a linguagem não possuía alocação dinâmica de \n" +
+"memória.\n" +
+"Se comparado a outras linguagens de alto nível, a sintaxe do Fortran é considerada \n" +
+"desatualizada, além de algumas das funcionalidades presentes nas linguagens mais \n" +
+"modernas.");
+                 
+                 //implementar as perguntas
+                 
+                 
+                 
+                 //historia da internet
+                 
+                 System.out.println("A internet foi criada em 1969, nos Estados Unidos. E era chamada de Arpanet, \nera tinha como função interligar laboratórios de pesquisa. \nNo ano de criação um dos maiores feitos da epoca foi o primeiro e-mail enviado na historia.\n" +
+"E essa rede pertencia ao Departamento de Defesa norte-americano. \nO mundo vivia o auge da Guerra Fria, A Arpanet era uma garantia de que a comunicação entre militares e ciencistas persistiria, \nmesmo em caso de bombardeio.\n" +
+"Mas o nome internet só começou a ser utilizado a partir de 1982 \nquando o uso se expandiu para outros países como, Holanda, Dinamarca e Suécia.\n" +
+"Por quase Duas decadas apenas os cientistas tinham poder para usar a internet, \nsomente em 1987 foi liberado para uso comercial.\n" +
+"No Brasil, a exploração comercial foi liberada em 1995. \nUniversidades como as federais do Rio Grande do Sul e do Rio de Janeiro estavam conectadas a rede desde 1989.");
 
+                 System.out.println("\nQual era a principal função da criação da internet?");
+                 System.out.println("\nComercialização e geração de renda.");
+                 System.out.println("Interligar laboratorios de pesquisas.");
+                 System.out.println("Melhorar a comunicação entre empresas.");
+                 System.out.println("Conectar países de diferentes continentes.");
+                 
+                 //Resposta certa: Interligar laboratorios de pesquisas
+                 
+                 System.out.println("\nEm qual ano foi liberado o uso comercial da internet?");
+                 System.out.println("\n1990");
+                 System.out.println("1985");
+                 System.out.println("1987");
+                 System.out.println("1993");
                 
-                
+                //resposta certa: 1987
+                 
+                 
+                 
+                 
                 break;
             case "2":
                 System.out.println("Que pena, volte uma outra vez para nos ajudar!");
