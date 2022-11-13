@@ -39,14 +39,15 @@ public class Jogo {
                 System.out.println("\nComo você deseja ser chamado? ");
                 String nome = input.next();
         
-                System.out.println("\nOlá " + nome + " você irá passar por uma simulação em forma de um quiz onde iremos nos aprofundar na evolução da tecnologia! \nparece interessante não é mesmo? Bom, sem enrolação vamos nessa!");
+                System.out.println("\nOlá " + nome + " Você irá passar por uma simulação em forma de um quiz onde iremos nos aprofundar na evolução da tecnologia! Você terá como objetivo acertar o maior número de perguntas"
+                        + "\n para somar peças e reconstruir o projeto do primeiro computador criado. \nParece interessante não é mesmo? Bom, sem enrolação vamos nessa!");
         
                 System.out.println("\nHoje temos pleno entendimento da tecnologia, é inegável afirmar que a\n" +
 "sociedade vem se transformando em função das evoluções tecnológicas,\n" +
 "impondo, de forma direta e indireta, novos padrões de comportamento.\n" +
 "Porém nem todos possuem o conhecimento de como foi o surgimento dessas\n" +
 "inovações.\n" +
-"Vamos embarcar em uma linha do tempo para compreender como foram os\n" +
+"Vamos embarcar em uma linha do tempo para compreenbrunder como foram os\n" +
 "principais acontecimentos.");
         System.out.println("\n" + nome + " você está preparado para começar essa aventura? \n 1 - [SIM] ou 2 - [NÃO]");
         String escolha = input.next();
@@ -56,23 +57,49 @@ public class Jogo {
                 
         //História da calculadora
                 
-                System.out.println("\n Para comerçarmos essa nossa incrivel aventura iremos voltar um pouquinho no tempo, \nvamos viajar para 3500 a.C.");
-                System.out.println(" Nos tempos de hoje, a calculadora é uma ferramenta indispensável, \ndevido à extrema necessidade do homem moderno de fazer cálculos com maior rapidez e precisão.");
-                System.out.println(" A primeira máquina de calcular foi o ábaco, que surgiu na antiga Mesopotâmia por volta de 3500 a.C. \nOs primeiros ábacos eram desenhados no chão e depois colocavam as bolas de pedras para calcular, \nmas com o passar do tempo, passaram a ser construídos em tábuas de pedra ou mármore, \nonde se lapidam as letras e se colocava depois bolas de pedras, para poder fazer os cálculos.");
+                System.out.println("\n Para comerçarmos essa nossa incrível aventura iremos voltar um pouquinho no tempo, \nvamos viajar para 3500 a.C.");
+                System.out.println(" A primeira máquina de calcular foi o ábaco, que surgiu na antiga Mesopotâmia. \nOs primeiros ábacos eram desenhados no chão e depois colocavam as bolas de pedras para calcular, \nmas com o passar do tempo, passaram a ser construídos em tábuas de pedra ou mármore, \nonde se lapidam as letras e se colocava depois bolas de pedras, para poder fazer os cálculos.");
                 System.out.println("\n Agora é com você, precisamos da sua ajuda para darmos prosseguimento a nossa história, conto com você nessa em.");
-                System.out.println("\n Podemos dizer que o ábaco foi a primeira calculadora da história, \ncriado no século 6 antes de Cristo, embora fosse um instrumento bastante limitado. \nO ábaco acabou sendo o principal mecanismo de cálculo durante os 24 séculos seguintes ?");
-                System.out.println("");
-                System.out.println(" "
-                        + ""
-                        + "            O  O  O\n"
-                        + "            O  O  O\n"	
-                        + "            ==|==|==|==\n         "
-                        + "    C  D  U");
+                System.out.println("\n\n Qual número está sendo representado a baixo?\n");
+
+                System.out.println("    O      ");
+                System.out.println("    O     O");
+                System.out.println("    O  O  O");
+                System.out.println(" O  O  O  O");
+                System.out.println("=|==|==|==|=");
+                System.out.println(" M  C  D  U");
+                
                 
         //Implementar a respotas        
+                System.out.println("1440");
+                System.out.println("1423");
+                System.out.println("1427");
+                System.out.println("1430");
+                System.out.println("Digite sua resposta: ");
+                int resposta1 = input.nextInt();
+                if (resposta1 == 1423){
+                    System.out.println("É isso aí, resposta correta! ");
                 
+                }else{ System.out.println("Não é bem isso, reposta errada \n");
+                }
                 
-                
+                System.out.println("          O");
+                System.out.println("    O  O  O");
+                System.out.println(" O  O  O  O");
+                System.out.println(" O  O  O  O");
+                System.out.println("=|==|==|==|=");
+                System.out.println(" M  C  D  U");
+                System.out.println("Digite sua resposta: \n");
+                System.out.println("2330");
+                System.out.println("2342");
+                System.out.println("2334");
+                System.out.println("2298");
+                int resposta2 = input.nextInt();
+                if(resposta2 == 2334){
+                    System.out.println("Parabéns, resposta correta!");
+                } else{
+                    System.out.println("Infelizmente você errou");
+                }
         //História do Eniac
                 
                 System.out.println("\nAntes da segunda guerra mundial havia um grupo de cientistas que\n" +
@@ -91,15 +118,31 @@ public class Jogo {
                 
                 System.out.println("Pelo que vimos nas notícias, a cidade ficou devastada, muitas casas estão destruídas, pelo visto vamos ter\n" +
 "bastante trabalho para finalizar este projeto. O cientista Charles me disse que o projeto\n" +
-"destruído se chama ENIAC (Eletronic Numerical Interpreter and Calculator)... Por sinal um\n" +
-"nome bem estranho, algumas pessoas estão comentando por aí que esse será o primeiro\n" +
-"computador digital e nos ajudará a comunicar com outros países, será verdade isso\n" +
-"mesmo?");
+"destruído se chamava ENIAC... Por sinal um\n" +
+"nome bem estranho, não é mesmo? \nAlgumas pessoas haviam comentando por aí que esse seria o primeiro\n" +
+"computador digital e nos ajudaria a se comunicar com outros países");
+                System.out.println("O cientista Charles disse que as principais partes do projeto danificada foram: peça1\n peça2\n peça3\n peça5\n peça5\n");
+                System.out.println("O Projeto do ENIAC tinha uma forma de U, e pesava em torno "
+                + "\nde 30 toneladas, você sabe me dizer qual é esse peso em quilos? ");
+                System.out.println("Digite sua resposta: ");
+                System.out.println("30000");
+                System.out.println("300000");
+                System.out.println("200000");
+                System.out.println("10000");
+                int resposta3 = input.nextInt();
+                 if(resposta3 == 30000){
+                    System.out.println("Resposta certa!");
+                } else{
+                    System.out.println("Infelizmente você errou");
+                }
+
                 
                 
                 break;
             case "2":
                 System.out.println("Que pena, volte uma outra vez para nos ajudar!");
+            default: 
+                System.out.println("Digite uma opção que seja 1 ou 2");
                 
         }
                 
